@@ -1,0 +1,114 @@
+.description {
+    color: #B8935F;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+    font-family: 'Inter', sans-serif;
+}
+
+.kenya-world {
+    color: #f4efe3;
+    font-size: 64px;
+    line-height: 1.08;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+
+    margin-bottom: 22px;
+    max-width: 419px;
+}
+.kenya-world span{
+    color: #B8935F;
+    font-style: italic;
+}
+
+p.hero-tagline{
+    font-size: 19px;
+    font-weight: 500;
+    max-width: 524px;
+    margin-bottom: 18px;
+    line-height: 1.5;
+    color: #f4efe3;
+}
+
+.section-one-intro {
+    color: white;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 180px 0 162px;
+    backdrop-filter: blur(10px);
+}
+
+.grown-highlands{
+    color: rgba(244, 239, 227, 0.78);
+    font-size: 17px;
+    line-height: 1.7;
+    max-width: 482px;
+    margin-bottom: 40px;
+    font-family: 'Inter', sans-serif;
+}
+
+.section-one-intro button{
+    padding: 15px 30px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    border-radius: 2px;
+    transition: all .2s;
+}
+button.view-collection {
+    color: #000;
+    background: #B8935F;
+    border: 1px solid #B8935F;
+}
+
+button.request-qoute {
+    color: #f4efe3;
+    border: 1px solid rgba(244, 239, 227, 0.4);
+    background: transparent;
+}
+.ventures{
+    background: #F4EFE3;
+}
+
+.ventures {
+    background: #F4EFE3;
+    border-bottom: 1px solid rgba(42, 38, 32, 0.14);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 70px;
+}
+
+.ventures-item{
+    padding: 34px 40px;
+    text-align: center;
+    border-left: 1px solid rgba(42, 38, 32, 0.14);
+}
+.ventures-item:first-child {
+    border-left: none;
+}
+
+.ventures-item:last-child {
+    /* border-left: none; */
+}
+.ventures span{
+    color: #8C6D3F;
+    font-family: 'Playfair Display', serif;
+    font-size: 13px;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.ventures p{
+    color: #2a2620;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}

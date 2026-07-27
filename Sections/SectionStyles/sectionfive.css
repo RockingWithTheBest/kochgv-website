@@ -1,0 +1,71 @@
+.section-five {
+    background: #0D0D0C;
+    color: #F4EFE3;
+    padding: 110px 0;
+}
+.section-five span{
+    color:#B8935F;
+    font-family: 'Inter';
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+
+.section-five-part-one {
+    max-width: 507px;
+}
+
+.section-five h2{
+    font-size: 38px;
+    margin-bottom: 20px;
+    color: #F4EFE3;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    max-width: 339px;
+}
+.section-five p{
+    font-size: 15.5px;
+    line-height: 1.8;
+    color: rgba(244, 239, 227, 0.68);
+    margin-bottom: 16px;
+}
+.reach-grid{
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.reach-grid{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center;}
+.reach-grid h2{font-size:38px;margin-bottom:20px;color:var(--off);}
+.reach-grid p{font-size:15.5px;line-height:1.8;color:rgba(244,239,227,0.68);margin-bottom:16px;}
+.map-wrap{position:relative;width:420px;height:420px;max-width:100%;margin:0 auto;}
+.map-ring{position:absolute;border:1px solid rgba(184,147,95,0.35);border-radius:50%;}
+.map-ring.r1{inset:0;}
+.map-ring.r2{inset:70px;}
+.map-hub{
+    position:absolute;top:210px;left:210px;transform:translate(-50%,-50%);
+    width:14px;height:14px;background:var(--gold);border-radius:50%;
+  }
+
+.map-hub-label{
+    position:absolute;top:228px;left:210px;transform:translate(-50%,0);
+    font-size:11px;font-weight:600;letter-spacing:0.08em;color:var(--off);white-space:nowrap;
+  }
+
+.map-node{position:absolute;display:flex;align-items:center;gap:9px;white-space:nowrap;}
+.map-node .dot{width:8px;height:8px;background:var(--gold);border-radius:50%;flex-shrink:0;}
+.map-node .ricon{
+    width:26px;height:26px;border-radius:50%;border:1px solid rgba(184,147,95,0.55);
+    display:flex;align-items:center;justify-content:center;flex-shrink:0;background:rgba(184,147,95,0.08);
+}
+.map-node .ricon svg{width:14px;height:14px;stroke:var(--gold);fill:none;stroke-width:1.6;}
+.map-node span{font-size:12.5px;color:rgba(244,239,227,0.85);letter-spacing:0.02em;}
+.map-line{position:absolute;background:rgba(184,147,95,0.4);height:1px;transform-origin:left center;}
+
+@media (max-width: 900px){
+    .reach-grid{grid-template-columns:1fr;gap:40px;}
+
+}

@@ -1,0 +1,18 @@
+body {
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+section {
+    /* padding: 110px 0; */
+    /* background: #F4EFE3; */
+}
+
+html{
+    scroll-behavior: smooth;
+}

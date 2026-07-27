@@ -1,0 +1,53 @@
+.section-four {
+    background: #F4EFE3;
+    text-align: center;
+    padding: 110px 0;
+}
+
+.wrap-four div{
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    color: #8C6D3F;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+.wrap-four h2{
+    font-size: 38px;
+    margin-bottom: 16px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+}
+.wrap-four p{
+    font-size: 15.5px;
+    color: rgba(42, 38, 32, 0.75);
+    line-height: 1.7;
+}
+.wrap-four button{
+    cursor: pointer;
+    margin-top: 34px;
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    border-radius: 2px;
+    transition: all .2s;
+    background: #B8935F;
+    color: #0D0D0C;
+    border: 1px solid #B8935F;
+}
+
+.wrap-four a{
+    text-decoration: none;
+    color: #0D0D0C;
+}
+
+.wrap-four{
+    max-width: 664px;
+    margin: 0 auto;
+    padding: 0 40px;
+}

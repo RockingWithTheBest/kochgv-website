@@ -1,0 +1,106 @@
+.section-two{
+    background: #F4EFE3;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+} 
+ .koch-global{
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    color: #8c6d3f;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+
+}
+
+h2.to-keny-and-world {
+    font-size: 38px;
+    margin-bottom: 24px;
+    color: #2a2620;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    max-width: 49%;
+}
+
+.section-two-about {
+    padding: 162px;
+    display: flex;
+    justify-content: center;
+    background: #F4EFE3;
+    gap: 71px;
+}
+
+.about-koch {
+    font-size: 15.5px;
+    line-height: 1.8;
+    color: rgba(42, 38, 32, 0.82);
+    margin-bottom: 16px;
+    max-width: 484px;
+}
+
+.section-two-why-kenya {
+    gap: 0;
+    margin-top: 72px;
+    border-top: 1px solid rgba(42, 38, 32, 0.14);;
+    display: flex;
+    padding: 61px;
+    justify-content: center;
+    max-width: 79%;
+    flex-direction: row;
+}
+
+.section-two-why-kenya  p{
+    font-size: 12.5px;
+    line-height: 1.6;
+    color: rgba(42, 38, 32, 0.68);
+    margin-bottom: 0;
+}
+
+span.number{
+    font-family: 'Playfair Display', serif;
+    font-size: 26px;
+    color: var(--gold-deep);
+    margin-bottom: 10px;
+    line-height: 1;
+}
+
+.farmer-image img{
+    width: 100%;
+    border-radius: 2px;
+    object-fit: cover;
+}
+
+span.number {
+    font-family: 'Playfair Display', serif;
+    font-size: 26px;
+    color: #8C6D3F;
+    margin-bottom: 10px;
+    line-height: 1;
+}
+
+.section-two-why-kenya p{
+    font-size: 12.5px;
+    line-height: 1.6;
+    color: rgba(42, 38, 32, 0.68);
+    margin-bottom: 0;
+}
+
+.about-item {
+    max-width: 326px;
+    padding: 0 26px;
+    border-left: 1px solid rgba(42, 38, 32, 0.14);
+}
+
+.about-item:first-child {
+    border-left: none;
+    padding-left: 0;
+}
+
+.about-item small{
+    color:#8C6D3F;
+    font-size: 13px;
+    font-family: 'Inter', sans-serif;
+    margin-left: 3px;
+}

@@ -14,7 +14,6 @@
     line-height: 1.08;
     font-family: 'Playfair Display', serif;
     font-weight: 500;
-
     margin-bottom: 22px;
     max-width: 419px;
 }
@@ -60,13 +59,22 @@ p.hero-tagline{
     border-radius: 2px;
     transition: all .2s;
 }
-button.view-collection {
+.centre-intro-her a{
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-right: 17px;
+    padding-left: 17px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-radius: 1px;
+}
+a.view-collection {
     color: #000;
     background: #B8935F;
     border: 1px solid #B8935F;
 }
 
-button.request-qoute {
+a.request-qoute {
     color: #f4efe3;
     border: 1px solid rgba(244, 239, 227, 0.4);
     background: transparent;

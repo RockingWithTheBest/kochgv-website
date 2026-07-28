@@ -1,0 +1,120 @@
+.horticulture{
+    padding: 100px 0;
+    border-bottom: 1px solid rgba(42,38,32,0.14);
+    background: #F4EFE3;
+}
+
+.horticulture-wrap {
+    display: flex;
+    flex-direction: column;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 40px;
+}  
+.products-second-part {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 56px;
+    gap: 103px;
+}
+
+.products-second-part-item {
+    max-width: 565px;
+}
+
+.products-second-part-item div{
+    color: #8C6D3F;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+    display: block;
+}
+
+.products-second-part-item h2{
+    font-size: 32px;
+    margin-bottom: 16px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+}
+
+.products-second-part-item p{
+    font-size: 15px;
+    line-height: 1.75;
+    color: rgba(42, 38, 32, 0.78);
+    margin-bottom: 14px;
+}
+.product-table {
+    border-top: 1px solid rgba(42,38,32,0.14);
+}
+
+.product-row-item {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(42,38,32,0.14);
+    font-size: 13.5px;
+    gap: 281px;
+    padding: 12px 0;
+}
+
+.product-row-item span:first-child{
+    color: rgba(42, 38, 32, 0.55);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 11.5px;
+}
+
+.product-row-item span:last-child{
+    font-weight: 600;
+    color: #2A2620;
+}
+
+.boxes{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+}
+
+.dox-item{
+    border: 1px solid rgba(42,38,32,0.14);
+    padding: 22px 20px;
+    border-radius: 2px;
+}
+
+.dox-item h4{
+    font-size: 15px;
+    margin-bottom: 8px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+.dox-item p{
+    font-size: 12.5px;
+    line-height: 1.6;
+    color: rgba(42, 38, 32, 0.65);
+}
+.dox-item span{
+    display: inline-block;
+    font-size: 10.5px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #8C6D3F;
+}
+
+.dox-item:last-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(184, 147, 95, 0.06);
+    border: 1px solid rgba(42,38,32,0.14);
+    padding: 22px 20px;
+    border-radius: 2px;
+}
+
+.dox-item:last-child a{
+    color: #8C6D3F;
+    text-decoration: none;
+    text-transform: uppercase;
+}

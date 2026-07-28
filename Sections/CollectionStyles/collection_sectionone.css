@@ -1,0 +1,39 @@
+.products-title{
+    background: #0D0D0C;
+    padding: 170px 0 70px;
+}
+
+.products-first-part{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+
+.home-products {
+    font-size: 12.5px;
+    color: rgba(244, 239, 227, 0.55);
+    margin-bottom: 22px;
+}
+
+.home-products a{
+    color: #B8935F;
+}
+
+
+.products-first-part h1{
+    color: #F4EFE3;
+    font-size: 46px;
+    max-width: 680px;
+    margin-bottom: 18px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+}
+
+.products-first-part p{
+    color: rgba(244, 239, 227, 0.7);
+    font-size: 16px;
+    max-width: 600px;
+    line-height: 1.7;
+}

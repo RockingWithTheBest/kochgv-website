@@ -105,6 +105,11 @@ span.number {
     margin-left: 3px;
 }
 
+@media (max-width: 1186px){
+    .section-two-about{
+        padding: 129px;
+    }
+}
 @media (max-width: 1170px){
     .section-two-about{
         padding: 95px;

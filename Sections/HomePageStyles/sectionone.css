@@ -125,6 +125,21 @@ a.request-qoute {
     .ventures {
         gap: 2px;
     }
+
+    .ventures {
+        gap: 2px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        border-bottom:none;
+    }
+
+    .ventures-item {
+        border: 1px solid rgba(42, 38, 32, 0.14);
+    }
+
+    .ventures span {
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 862px){
@@ -147,7 +162,7 @@ a.request-qoute {
     }
 
     .description{
-        font-size: 9px;
+        font-size: 12px;
         font-weight: 500;
     }
     
@@ -165,7 +180,6 @@ a.request-qoute {
     }
 
     .ventures span{
-        font-size: 9px;
         margin-bottom: 3px;
     }
     .ventures p{
@@ -179,14 +193,15 @@ a.request-qoute {
         display: flex;
         flex-direction: column;
         align-items: center;
+        max-width: 430px;
     }
 
     .ventures p {
-        font-size: 8px;
+        font-size: 11px;
     }
 
     .ventures span {
-        font-size: 8px;
+        font-size: 11px;
     }
 
     .ventures-item {
@@ -335,6 +350,12 @@ a.request-qoute {
     }
 }
 
+@media (max-width: 332px){
+    .ventures{
+        gap: 0;
+    }
+}
+
 @media (max-width:330px){
     .kenya-world{
         font-size: 20px;
@@ -343,5 +364,29 @@ a.request-qoute {
 
     .centre-intro-her a {
         font-size: 8px;
+    }
+}
+
+@media (max-width:328px){
+    .ventures-item {
+        padding: 3px 14px;
+    }
+}
+
+@media (max-width:320px){
+    .ventures-item {
+        padding: 3px 11px;
+    }
+}
+
+@media (max-width:308px){
+    .ventures-item {
+        padding: 3px 9px;
+    }
+}
+
+@media (max-width:300px){
+    .ventures-item {
+        padding: 3px 6px;
     }
 }

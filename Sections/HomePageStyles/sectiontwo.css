@@ -104,3 +104,175 @@ span.number {
     font-family: 'Inter', sans-serif;
     margin-left: 3px;
 }
+
+@media (max-width: 1170px){
+    .section-two-about{
+        padding: 95px;
+    }
+
+    .section-two-why-kenya{
+        margin-top: -10px;
+        padding: 27px;
+        max-width: 86%;
+    }
+
+    h2.to-keny-and-world{
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 931px){
+    .section-two-about {
+        padding: 69px;
+    }
+}
+
+@media (max-width: 874px){
+    .section-two-about {
+        padding: 50px;
+    }
+}
+
+@media (max-width :863px){
+    h2.to-keny-and-world {
+        font-size: 21px;
+    }
+
+    .about-koch{
+        font-size: 14px;
+    }
+
+    .farmer-image img{
+        width: 100%;
+        margin-right: -323px;
+    }
+
+    span.number {
+        font-size: 18px;
+        margin-bottom: 6px;
+        line-height: 0;
+    }
+
+    .section-two-about {
+        gap: 6px;
+    }
+}
+
+@media (max-width: 666px){
+    .section-two-about {
+        flex-direction: column;
+    }
+    h2.to-keny-and-world{
+        max-width: 71%;
+    }
+
+    .about-koch{
+        max-width: 533px;
+    }
+
+    .section-two-why-kenya {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .about-item {
+        border-bottom: 1px solid rgba(42, 38, 32, 0.14);
+        padding: 17px;
+        border-left: 1px solid rgba(42, 38, 32, 0.14);
+    }
+
+    .about-item:first-child {
+        border-left: 1px solid rgba(42, 38, 32, 0.14);
+        padding: 17px;
+    }
+}
+
+@media (max-width:620px){
+    .farmer-image img {
+        width: 100%;
+        height: 510px;
+    }
+}
+
+@media (max-width:563px){
+    h2.to-keny-and-world {
+        max-width: 56%;
+    }
+
+    .about-koch {
+        max-width: 753px;
+    }
+}
+
+@media (max-width:500px){
+    .about-koch, .section-two-why-kenya p {
+        font-size: 10px;
+    }
+
+    h2.to-keny-and-world {
+        max-width: 74%;
+        font-size: 23px;
+    }
+
+    span.number {
+        font-size: 15px;
+    }
+
+    .about-item {
+        padding: 9px;
+    }
+}
+
+@media (max-width:438px){
+    .about-koch {
+        font-size: 13px;
+    }
+
+    .section-two-about {
+        padding: 29px;
+    }
+
+    .farmer-image img {
+        width: 91%;
+        height: 334px;
+        margin-right: 0;
+    }
+
+    .farmer-image {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .section-two-why-kenya p{
+        font-size: 12px;
+    }
+}
+
+@media (max-width:438px){
+    .section-two-why-kenya {
+        padding: 11px;
+        max-width: 70%;
+    }
+}
+
+@media (max-width:372px){
+    .about-item {
+        border: 1px solid rgba(42, 38, 32, 0.14);
+    }
+
+    .section-two-why-kenya {
+        padding: 0px;
+        max-width: 100%;
+    }
+}
+
+@media (max-width:350px){
+    .koch-global{
+        font-size: 11px;
+    }
+
+    h2.to-keny-and-world {
+        max-width: 73%;
+        font-size: 22px;
+    }
+}

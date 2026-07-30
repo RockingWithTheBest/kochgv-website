@@ -110,6 +110,12 @@ div.nav-title span{
     color: #F4EFE3;
 }
 
+.mobile-nav img{
+    width: 28px;
+    position: relative;
+    top: -77px;
+    margin-bottom: -56px;
+}
 
 .mobile-cta {
     background: #B8935F;
@@ -202,5 +208,9 @@ body.no-scroll {
 
     .mobile-cta {
         font-size: 11px !important;
+    }
+
+    .mobile-nav img {
+        width: 24px;
     }
 }

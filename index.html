@@ -18,7 +18,7 @@
     <title>Koch Global Ventures</title>
 </head>
 <body>
-        <!-- <header class="nav-head">
+        <header class="nav-head">
             <div class="nav-header">            
                 <div class="nav-title">
                     <img src="./Icons/koch_logo.png" alt="">
@@ -32,8 +32,25 @@
                     <a href="#contacts">Contact</a>
                 </nav>
                 <a href="#contact" class="nav-cta">Get in touch</a>
+                
+                <div class="burger-menu" id="burgerMenu">
+                    <div class="menu-lines"></div>
+                    <div class="menu-lines"></div>
+                    <div class="menu-lines"></div>
+                </div>
+
+                <!-- Mobile navigation -->
+                <div class="mobile-nav" id="mobileNav">
+                    <a href="#about">About</a>
+                    <a href="">Products</a>
+                    <a href="#certifications">Certifications</a>
+                    <a href="#contacts">Contact</a>
+                    <a href="#contact" class="mobile-cta">Get in touch</a>
+                </div>
             </div>
-        </header> -->
+
+            
+        </header>
         <section class="section-one" id="about">
             <div class="section-one-intro"  style="background-image: url('./Icons/intro.png');
                 background-repeat: no-repeat;background-size: cover; backdrop-filter: blur(10px);"
@@ -311,5 +328,38 @@
                 </div>
             </div>
         </section>
+
+        <script>
+            const burgerMenu = document.getElementById("burgerMenu")
+            const mobileNav = document.getElementById("mobileNav")
+            const body = document.body;
+
+
+            //toggle menu on click
+            burgerMenu.addEventListener('click', function(e){
+                e.stopPropagation()
+                this.classList.toggle('active')
+                mobileNav.classList.toggle('active')
+                body.classList.toggle('no-scroll')
+            })
+
+            //close menu when clicked 'a'
+            const mobileLinks = document.querySelectorAll('a')
+            mobileLinks.forEach(link=>{
+                link.addEventListener('click', ()=>{
+                    burgerMenu.classList.remove('active')
+                    mobileNav.classList.remove('active')
+                    body.classList.remove('no-scroll')
+                })
+            })
+
+            mobileNav.addEventListener('click', function(e){
+                e.stopPropagation()
+                this.classList.remove('active')
+                burgerMenu.classList.remove('active')
+                body.classList.remove('no-scroll')
+            })
+
+        </script>
 </body>
 </html>

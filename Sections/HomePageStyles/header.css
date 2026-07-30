@@ -67,3 +67,140 @@ div.nav-title span{
     border-radius: 2px;
     transition: all .2s;
 }
+
+
+.burger-menu {
+    display: none;
+}
+
+.mobile-nav{
+    display: none;
+    position:fixed;
+    top:0;
+    right: -100%;
+    /* width: 89%; */
+    height: 100vh;
+    background: #0D0D0C;
+    padding: 100px 40px 40px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    transition: right 0.3s ease;
+    z-index: 999;
+}
+
+.mobile-nav.active{
+    right: 0;
+    display: flex;
+}
+
+.mobile-nav a {
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    transition: color 0.3s ease;
+    font-size: 12px;
+    font-weight: 500;
+    color: #B8935F;
+    letter-spacing: 0.10em;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.mobile-nav a:hover {
+    color: #F4EFE3;
+}
+
+
+.mobile-cta {
+    background: #B8935F;
+    color: #0D0D0C !important;
+    padding: 12px 22px;
+    border-radius: 4px;
+    font-size: 12px !important;
+    font-weight: 500 !important;
+    margin-top: -5px;
+}
+
+.mobile-cta:hover {
+    background: #F4EFE3 !important;
+    color: #0D0D0C !important;
+}
+
+/* Burger Menu animation when active */
+.burger-menu.active .menu-lines:nth-child(1){
+    transform: rotate(45deg);
+}
+
+.burger-menu.active .menu-lines:nth-child(2){
+    opacity: 0;
+}
+
+.burger-menu.active .menu-lines:nth-child(3){
+    transform: rotate(-45deg) ;
+}
+
+body.no-scroll {
+    overflow: hidden;
+}
+
+@media(max-width:830px){
+    .nav-cta{
+        padding: 7px 8px;
+        font-size: 9px;
+    }
+
+    .nav-links a {
+        font-size: 11px;
+    }
+
+    div.nav-title span {
+        font-size: 11px;
+    }
+
+    div.nav-title img {
+        height: 25px;
+        width: 25px;
+    }
+}
+
+@media (max-width:705px){
+    .nav-links, .nav-cta{
+        display: none;
+    }
+
+    .burger-menu{
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+        margin-right: -24px;
+    }
+
+    .menu-lines{
+        background: #B8935F;
+        width: 30px;
+        height: 2px;
+        border-radius: 5px;        
+    }
+
+    .mobile-nav{
+        display: flex;
+        right: -112%;
+    }
+
+    .mobile-nav.active{
+        right: 0;
+    }
+}
+
+
+
+
+@media (max-width:439px){
+    .mobile-nav a {
+        font-size: 11px;
+    }
+
+    .mobile-cta {
+        font-size: 11px !important;
+    }
+}

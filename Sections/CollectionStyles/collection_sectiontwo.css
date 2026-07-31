@@ -79,13 +79,16 @@
 
 .dox-item{
     border: 1px solid rgba(42,38,32,0.14);
-    padding: 22px 20px;
+    /* height: 90%; */
     border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .dox-item h4{
     font-size: 15px;
-    margin-bottom: 8px;
+    margin-bottom: 5px;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
 }
@@ -93,6 +96,7 @@
     font-size: 12.5px;
     line-height: 1.6;
     color: rgba(42, 38, 32, 0.65);
+    
 }
 .dox-item span{
     display: inline-block;
@@ -100,10 +104,16 @@
     font-weight: 600;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #8C6D3F;
+    color: #8C6D3F;    
+    margin-top: 13px;
 }
 
-.dox-item:last-child{
+.dox-item span, .dox-item p, .dox-item h4{
+    padding-left: 11px;
+    padding-right: 4px;
+}
+
+/* .dox-item:last-child{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -111,10 +121,199 @@
     border: 1px solid rgba(42,38,32,0.14);
     padding: 22px 20px;
     border-radius: 2px;
-}
+} */
 
 .dox-item:last-child a{
     color: #8C6D3F;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+.dox-item img{
+    object-fit: cover;
+    width: 100%;
+    height: 60%;
+}
+
+@media (max-width:1307px){
+    .product-row-item {
+        font-size: 10.5px;
+    }
+
+    .products-second-part-item p {
+        font-size: 13px;
+    }
+
+    .products-second-part-item h2 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width:1270px){
+    .products-second-part {
+        flex-direction: column;
+        margin-bottom: 56px;
+        gap: 19px;
+        align-items: center;
+    }
+
+    .products-second-part-item h2 {
+        font-size: 34px;
+    }
+
+    .products-second-part-item p {
+        font-size: 15px;
+    }
+
+    .products-second-part-item {
+        max-width: 858px;
+    }
+
+    .product-row-item {
+        font-size: 13.5px;
+    }
+    .boxes {
+        grid-template-columns: repeat(3, 26%);
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .dox-item p {
+        font-size: 11.5px;
+    }
+
+    .dox-item h4 {
+        font-size: 13px;
+    }
+}
+
+@media (max-width:705px){
+    .boxes {
+        grid-template-columns: repeat(2, 41%);
+        gap: 10px;
+    }
+}
+
+@media (max-width:639px){
+    .products-first-part{
+        margin-top: -50px;
+        margin-bottom: -42px;
+    }
+
+    .products-first-part h1 {
+        color: #F4EFE3;
+        font-size: 35px;
+    }
+
+    .products-first-part p {
+        font-size: 14px;
+    }
+
+    .products-second-part-item h2 {
+        font-size: 21px;
+    }
+
+    .products-second-part-item p {
+        font-size: 14px;
+    }
+
+    .product-row-item {
+        font-size: 10.5px;
+        gap: 204px;
+    }
+
+    .dox-item h4 {
+        font-size: 11px;
+    }
+
+    .dox-item p {
+        font-size: 10.5px;
+    }
+
+    .dox-item img {
+        width: 100%;
+        height: 57%;
+    }
+
+    .boxes {
+        grid-template-columns: repeat(2, 41%);
+        gap: 10px;
+    }
+
+    .horticulture {
+        padding: 37px 0;
+    }
+}
+
+@media (max-width: 500px){
+    .products-first-part p , .products-second-part-item p{
+        font-size: 10px;
+        margin-bottom: 37px;
+    }
+
+    .products-first-part h1{
+        font-size: 23px;
+        margin-bottom: 44px;
+        
+    }
+
+    .products-second-part-item h2{
+        max-width: 74%;
+        font-size: 23px;
+    }
+}
+
+@media (max-width:465px){
+    .boxes {
+        grid-template-columns: repeat(2, 48%);
+    }
+}
+
+@media (max-width: 439px) {
+    .products-first-part p, .products-second-part-item p {
+        font-size: 13px;
+        margin-bottom: 0px;
+    }
+
+    .products-first-part h1 {
+        font-size: 25px;
+        line-height: 0.08;
+    }
+}
+
+@media (max-width:406px){
+        .boxes {
+        grid-template-columns: repeat(2, 55%);
+    }
+}
+
+@media (max-width:346px){
+    .horticulture-wrap {
+        padding: 27px;
+        padding-top: 1px;
+    }
+
+    .products-first-part h1 {
+        font-size: 25px;
+        line-height: 1.08;
+        max-width: 247px;
+        margin-bottom: 13px;
+    }
+
+    .fresh-produce-row-item, .product-row-item {
+        font-size: 8.5px;
+        gap: 27px;
+        padding: 9px 0;
+    }
+
+    .product-row-item span:first-child {
+        font-size: 8.5px;
+    }
+
+    .dox-item {
+        height: 102%;
+    }
+    .boxes {
+        grid-template-columns: repeat(2, 50%);
+    }
 }

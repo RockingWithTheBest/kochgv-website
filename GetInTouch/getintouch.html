@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./getintouch.css"/>
+    <link rel="stylesheet" href="../index.css"/>
+    <link rel="stylesheet" href="../Sections/HomePageStyles/header.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header-get-in-touch">
+
+    
+    <header class="nav-head">
+            <div class="nav-header">            
+                <div class="nav-title">
+                    <img src="../Icons/koch_logo.png" alt="">
+                    <span>Koch Global Ventures</span>
+                </div>
+                
+                <nav class="nav-links">
+                    <a href="../">Home</a>
+                    <a href="../Collection/collection.html">Products</a>
+                    <a href="../#certifications">Certifications</a>
+                    <a href="../#contacts">Contact</a>
+                    
+                </nav>
+                <a href="" class="nav-cta">Get in touch</a>
+                
+                <div class="burger-menu" id="burgerMenu">
+                    <div class="menu-lines"></div>
+                    <div class="menu-lines"></div>
+                    <div class="menu-lines"></div>
+                </div>
+
+                <!-- Mobile navigation -->
+                <div class="mobile-nav" id="mobileNav">
+                    <img src="../Icons/koch_logo.png" href="../" alt="">
+                    <a href="../">Home</a>
+                    <a href="../Collection/collection.html">Products</a>
+                    <a href="../#certifications">Certifications</a>
+                    <a href="../#contacts">Contact</a>
+                    <a href="./getintouch.html" class="mobile-cta">Get in touch</a>
+                </div>
+            </div>            
+    </header>
+    </div>
+    <section class="get-in-touch">
+        <div class="form-entry">
+            <img src="../Icons/koch_logo.png" alt="" class="koch-logo">
+            <form action="" id="enquiryForm" class="form-filling">
+                <div class="quick-enquiry">QUICK ENQUIRY</div>
+                <div class="form-input">
+                    <div>                           
+                        <div class="input-data">
+                            <input type="text" id="full_name" placeholder="Full name"/>
+                        </div>
+                        <div class="input-data">
+                            <input type="text"  id="company_name" placeholder="Company Name"/>
+                        </div>
+                    </div>
+                    <div>                            
+                        <div class="input-data">
+                            <input type="email" id="email" placeholder="Email Address"/>
+                        </div>
+                        <div class="input-data">
+                            <input type="text"  id="product-of-interest" placeholder="Product of interest"/>
+                        </div>
+                    </div>
+                </div>
+                <textarea name="" id="tell-us" 
+                    placeholder="Tell us what you're looking to order — product, volume, destination..."
+                ></textarea>
+                <div class="send-quiry-quote">
+                    <button type="button" id="send-enquiry" onclick="sendToWhatsApp()">send enquiry</button>
+                </div>
+            </form>           
+        </div>
+    </section>
+    <script src="../whatsapp.js"></script>
+    <script src="../BurgerMenu/menu.js"></script>
+</body>
+</html>

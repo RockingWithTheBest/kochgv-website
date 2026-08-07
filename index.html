@@ -31,7 +31,7 @@
                     <a href="#certifications">Certifications</a>
                     <a href="#contacts">Contact</a>
                 </nav>
-                <a href="#contact" class="nav-cta">Get in touch</a>
+                <a href="../GetInTouch/getintouch.html" class="nav-cta">Get in touch</a>
                 
                 <div class="burger-menu" id="burgerMenu">
                     <div class="menu-lines"></div>
@@ -45,8 +45,8 @@
                     <a href="#about">About</a>
                     <a href="./Collection/collection.html">Products</a>
                     <a href="#certifications">Certifications</a>
-                    <a href="#contacts">Contact</a>
-                    <a href="#contact" class="mobile-cta">Get in touch</a>
+                    <a href="../#contacts">Contact</a>
+                    <a href="./GetInTouch/getintouch.html" class="mobile-cta">Get in touch</a>
                 </div>
             </div>
 
@@ -72,7 +72,7 @@
                     </div>
                     <div>
                         <a class="view-collection" href="./Collection/collection.html">view collections</a>
-                        <a class="request-qoute" href="#contacts">request a quote</a>
+                        <a class="request-qoute" href="../GetInTouch/getintouch.html">request a quote</a>
                     </div>
                 </div>
             </div>
@@ -290,18 +290,28 @@
                         <div class="quick-enquiry">QUICK ENQUIRY</div>
                         <div class="form-input">
                             <div>                           
-                                <div class="input-data"><input type="text" placeholder="Full name"/></div>
-                                <div class="input-data"><input type="text" placeholder="Company"/></div>
+                                <div class="input-data">
+                                    <input type="text" id="full_name" placeholder="Full name"/>
+                                </div>
+                                <div class="input-data">
+                                    <input type="text"  id="company_name" placeholder="Company Name"/>
+                                </div>
                             </div>
                             <div>                            
-                                <div class="input-data"><input type="text" placeholder="Email address"/></div>
-                                <div class="input-data"><input type="text" placeholder="Product of interest"/></div>
+                                <div class="input-data">
+                                    <input type="email" id="email" placeholder="Email Address"/>
+                                </div>
+                                <div class="input-data">
+                                    <input type="text"  id="product-of-interest" placeholder="Product of interest"/>
+                                </div>
                             </div>
                         </div>
-                        <textarea name="" id="" 
+                        <textarea name="" id="tell-us" 
                             placeholder="Tell us what you're looking to order — product, volume, destination..."
                         ></textarea>
-                        <div class="send-quiry-quote"><button type="button">send enquiry</button></div>
+                        <div class="send-quiry-quote">
+                            <button type="button" onclick="sendToWhatsApp()">send enquiry</button>
+                        </div>
                     </form>
                 </div>
 
@@ -331,5 +341,6 @@
         </section>
 
         <script src="./BurgerMenu/menu.js"></script>
+        <script src="./whatsapp.js"></script>
 </body>
 </html>

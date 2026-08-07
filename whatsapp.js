@@ -1,5 +1,5 @@
 function sendToWhatsApp(){
-    let number = "+79307397388"
+    let number = "+254733774577"
 
     let fullName = document.getElementById('full_name').value;
     let companyName = document.getElementById('company_name').value;
